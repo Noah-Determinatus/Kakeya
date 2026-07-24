@@ -11,4 +11,4 @@ import Kakeya3D.Reduction
 theorem kakeya_3d (B : Set (EuclideanSpace ℝ (Fin 3)))
     (hK : IsKakeya3D B) :
     HausdorffDim B = 3 :=
-  sorry
+  sorry 
