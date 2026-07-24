@@ -1,3 +1,6 @@
+- name: Give execution permissions to scripts
+  run: chmod +x scripts/*.sh
+
 name: CI
 
 on:
