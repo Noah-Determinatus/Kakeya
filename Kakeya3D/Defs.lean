@@ -27,5 +27,5 @@ def IsKakeya3D (K : Set (EuclideanSpace ℝ (Fin 3))) : Prop :=
     ∃ x : EuclideanSpace ℝ (Fin 3), ∀ t ∈ Set.Icc 0 1, x + t • v ∈ K
 
 /-- Densidad máxima sobre conjuntos convexos. -/
-noncomputable def max_density_3d (𝕋 : Set (Tube3D)) : ℝ :=
+noncomputable def max_density_3d (𝕋 : Set Tube3D) : ℝ :=
   sorry
