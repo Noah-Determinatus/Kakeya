@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Formalization of the Kakeya Conjecture in 3D and 4D (Lean 4)"
+message: "If you use this software, please cite it as below."
+authors:
+  - name: "Noah Determinatus"
+    orcid: "0009-0001-8895-8584"
+    email: "determinatusnoah@gmail.com"
+repository-code: "https://github.com/Noah-Determinatus/Kakeya"
+url: "https://github.com/Noah-Determinatus/Kakeya"
+license: Apache-2.0
+version: "v0.1.0"
+date-released: "2026-07-24"
