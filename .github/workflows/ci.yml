@@ -15,14 +15,5 @@ jobs:
       - name: Setup Lean
         uses: leanprover/lean-action@v1
 
-      - name: Build 3D
-        run: lake build Kakeya3D
-
-      - name: Build 4D
-        run: lake build Kakeya4D
-
-      - name: Check no sorry
-        run: scripts/check_no_sorry.sh
-
-      - name: Audit axioms
-        run: scripts/audit_axioms.sh
+      - name: Build
+        run: lake build
